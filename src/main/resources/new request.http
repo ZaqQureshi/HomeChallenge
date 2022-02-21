@@ -1,0 +1,19 @@
+###
+
+# curl --location --request POST 'http://localhost:8083/api/person_catalog/create_person'
+#--header 'Content-Type: application/json'
+#--data-raw '{
+# "name":"umar",
+# "workedOn":"java"
+#
+#}'
+POST http://localhost:8083/api/person_catalog/create_person
+Content-Type: application/json
+
+{
+  "name": "ukkkmar",
+  "workedOn": "java"
+}
+
+###
+
