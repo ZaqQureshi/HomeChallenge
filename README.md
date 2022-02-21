@@ -6,8 +6,8 @@ Functionalities :
 2. Search a person By Id
 3. Search persons by Name
 
-You Can clone the Project using git And Run it Using Can use Intellij IDE.
-For Database use MySQL and HeidiSql IDE. Excute the db Scripts in HeidiSql.
+You can clone the project using git And run it using Intellij IDE.
+For Database use MySQL and HeidiSql IDE. Execute the db scripts in HeidiSql.
 FrameWork: Sprint Boot, HTML and JavaScript
 
 
