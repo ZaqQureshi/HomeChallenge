@@ -41,8 +41,10 @@
                 if (obj.status=='SUCCESS') {
                     localStorage.setItem("myValue", JSON.stringify(obj.object));
                     window.location.href = "viewperson.html";
+                    document.getElementById("id").value="";
                 }else {
                     alert(obj.message);
+                    document.getElementById("id").value="";
                 }
             }
         }
@@ -65,8 +67,10 @@
                 if (obj.status=='SUCCESS') {
                     localStorage.setItem("myValue", JSON.stringify(obj.object));
                     window.location.href = "viewperson.html";
+                    document.getElementById("sname").value="";
                 }else {
                     alert(obj.message);
+                    document.getElementById("sname").value="";
                 }
 
                   }
